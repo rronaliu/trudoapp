@@ -1,0 +1,19 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+.table-striped tbody tr:nth-of-type(odd) > td > .row-tag {
+    background: #fff;
+    border: 1px solid #ddd;
+    }
+    .row-tag {
+        border: 1px solid #ddd;
+        background-color: #f1f1f1;
+        padding: 5px;
+        margin: 2px;
+        border-radius: 5px;
+    }
+
+    .login-page {
+        max-width: 400px;
+        margin: 0 auto;
+      }

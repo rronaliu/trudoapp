@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavBar/>
+    <span class="text-primary cursor-pointer d-flex m-4" @click="$router.go(-1)" v-if="$route.name=='profile' || $route.name=='errorPage'"> Go Back </span>
+    <h1>{{$route.meta.title}}</h1>
+    <div class="m-5">
+    <RouterView />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import NavBar from './components/NavBar.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavBar,
+    // Main
+  },
+  async created() {
+    this.$store.commit('SET_IS_LOADING', true)
+    await this.$store.dispatch('getLoggedInUser')
+    this.$store.commit('SET_IS_LOADING', false)
   }
 }
 </script>
@@ -23,6 +32,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+</style>
+<style >
+@import '@/assets/main.css';
 </style>

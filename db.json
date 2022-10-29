@@ -1,0 +1,247 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Team 1",
+      "authors": [
+        {
+          "id": 1,
+          "name": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Team 2",
+      "authors": [
+        {
+          "id": 2,
+          "name": "Matt Smith"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Team 3",
+      "authors": [
+        {
+          "id": 3,
+          "name": "Jane Doe"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "userName": "JohnDoe",
+      "email": "JohnDoe@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Matt",
+      "lastName": "Smith",
+      "userName": "MattSmith",
+      "email": "MattSmith@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "userName": "JaneDoe",
+      "email": "JaneDoe@gmail.com"
+    },
+    {
+      "firstName": "Rron",
+      "lastName": "Aliu",
+      "userName": "rronaliu",
+      "email": "rronaliu95@gmail.com",
+      "password": "123123",
+      "id": 4
+    },
+    {
+      "firstName": "Rron",
+      "lastName": "Aliu",
+      "userName": "rron123",
+      "email": "rronaliu95@gmail.com",
+      "password": "123123",
+      "id": 5
+    },
+    {
+      "firstName": "Zana",
+      "lastName": "Gojani",
+      "userName": "zanagg",
+      "email": "zanagojani123@gmail.com",
+      "password": "123123",
+      "id": 6
+    },
+    {
+      "firstName": "asddsa",
+      "lastName": "asdasdas",
+      "userName": "zanaggasdasd",
+      "email": "asdsa@assa",
+      "password": "123123",
+      "id": 7
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum",
+      "team": {
+        "name": "Team 1",
+        "id": 1
+      },
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ],
+      "author": {
+        "id": 1,
+        "name": "John Doe"
+      },
+      "removable": "true",
+      "publicationDate": "10/29/2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis venenatis purus, vitae finibus felis gravida vitae. Nunc convallis mi diam, sit amet consectetur magna fermentum vel. Aliquam malesuada arcu feugiat purus elementum ultrices. Integer sit amet sapien felis. Nunc sed facilisis metus, blandit interdum diam. Ut semper in mi nec elementum. Praesent sapien nisl, vulputate quis venenatis tempor, fermentum eu ante. Morbi euismod dignissim magna, et egestas tortor sodales at. Aliquam maximus sagittis blandit. Sed sollicitudin tellus a dapibus scelerisque. Nullam fermentum justo eget ipsum lacinia, at efficitur odio finibus. Cras sed venenatis nisl, id varius tellus. Aliquam facilisis leo magna, sit amet pretium arcu semper id. Curabitur sit amet tristique erat. Nulla facilisi. Aliquam interdum suscipit diam. Integer sagittis eros leo, in posuere urna laoreet nec. Donec id imperdiet mauris, eget rutrum urna. Suspendisse sit amet fringilla tortor. Etiam gravida consectetur mauris, eget pharetra dui scelerisque sit amet. Nullam non justo metus. Nulla blandit urna orci, et lacinia mi fermentum et. Fusce condimentum enim ut imperdiet convallis. Proin a magna iaculis, blandit nunc et, tempor orci. Ut sed facilisis ipsum, consequat sodales eros. Integer volutpat lacus sit amet eros facilisis, sit amet venenatis purus malesuada. In ultricies commodo metus sit amet sagittis. Proin posuere lorem at ornare venenatis. Praesent eu purus sed ante pretium condimentum sit amet vel quam. Quisque vel tempor lectus. Nam pellentesque diam ut tellus finibus ullamcorper. Duis volutpat est magna, nec bibendum arcu dapibus eget. Quisque ac libero ac lectus dapibus convallis. Maecenas eleifend arcu vel nisl fringilla, in pharetra mi sodales. Ut rutrum, turpis ac finibus mollis, justo sem efficitur dolor, nec aliquam ex nunc sit amet sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec pretium, nisl sed venenatis aliquam, enim diam accumsan purus, sed scelerisque nulla ligula in mi. Phasellus hendrerit, dolor tempus gravida pellentesque, mi odio dictum mi, eget porttitor augue nisl vitae leo. Sed sagittis id quam in auctor. Curabitur ultricies augue justo, ut eleifend diam dictum id. Ut maximus condimentum urna, et faucibus dui ultrices sed. Duis tristique leo in massa venenatis, quis rhoncus odio lobortis. Vestibulum tellus ligula, finibus lacinia dolor at, egestas egestas lectus.Donec ac purus id quam iaculis tempus vitae eget velit. Vivamus ut tincidunt libero. Aenean rutrum leo vitae purus sollicitudin hendrerit. Cras lobortis lacinia nulla, sed tristique dolor vehicula sit amet. Curabitur at molestie augue, et dapibus ipsum. Curabitur efficitur eros a turpis commodo, sed feugiat velit vulputate. Phasellus condimentum malesuada aliquet. Aliquam velit lacus, dignissim sed consectetur non, tincidunt mattis metus. Aliquam pellentesque rhoncus mattis. Nam varius aliquet diam vitae porta. Maecenas non fermentum ligula. Vivamus ac dignissim odio. Cras at est lectus."
+    },
+    {
+      "id": 2,
+      "title": "Sit amet",
+      "team": {
+        "id": 2,
+        "name": "Team 2"
+      },
+      "tags": [
+        "tag1",
+        "tag3"
+      ],
+      "author": {
+        "id": 2,
+        "name": "Matt Smith"
+      },
+      "removable": "false",
+      "publicationDate": "10/29/2022",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum sodales dapibus. Mauris a cursus mi. Cras ligula lectus, posuere non nulla in, scelerisque imperdiet velit. Praesent et velit dui. Etiam nisl eros, molestie eget arcu at, ultricies facilisis est. Cras tellus est, commodo in tellus a, ultrices tincidunt tellus. Vivamus ultricies tortor et magna tincidunt, quis porttitor orci rutrum. Duis vitae justo mattis, maximus sem et, egestas ante.Integer lorem ante, dapibus eget dapibus nec, sagittis vestibulum nisl. Nulla sed dignissim metus. Maecenas eget rhoncus orci, ac feugiat arcu. Sed at purus in quam semper facilisis. Curabitur tempus, lorem sed luctus dignissim, leo felis scelerisque justo, non facilisis arcu ex sit amet purus. Nulla facilisi. Donec facilisis, purus mattis rutrum faucibus, odio nunc faucibus est, laoreet rutrum metus nulla ac elit. In aliquet euismod ligula, sed pulvinar justo ornare placerat. Nulla in blandit nibh. Fusce mattis mauris sed massa suscipit convallis at quis purus. Morbi vel odio tempus, tristique turpis eget, tristique libero. Nulla vitae varius mauris, at tristique augue. Proin efficitur risus at elit viverra elementum. Nam at gravida ante, a tempus massa. Suspendisse libero lorem, faucibus vitae ultrices eget, sodales ut quam."
+    },
+    {
+      "id": 3,
+      "title": "Integer lorem ante",
+      "team": {
+        "id": 3,
+        "name": "Team 3"
+      },
+      "tags": [
+        "tag2",
+        "tag3"
+      ],
+      "author": {
+        "id": 3,
+        "name": "Jane Doe"
+      },
+      "removable": "true",
+      "publicationDate": "10/29/2022",
+      "description": "Integer lorem ante, dapibus eget dapibus nec",
+      "content": "Integer lorem ante, dapibus eget dapibus nec, sagittis vestibulum nisl. Nulla sed dignissim metus. Maecenas eget rhoncus orci, ac feugiat arcu. Sed at purus in quam semper facilisis. Curabitur tempus, lorem sed luctus dignissim, leo felis scelerisque justo, non facilisis arcu ex sit amet purus. Nulla facilisi. Donec facilisis, purus mattis rutrum faucibus, odio nunc faucibus est, laoreet rutrum metus nulla ac elit. In aliquet euismod ligula, sed pulvinar justo ornare placerat. Nulla in blandit nibh. Fusce mattis mauris sed massa suscipit convallis at quis purus. Morbi vel odio tempus, tristique turpis eget, tristique libero. Nulla vitae varius mauris, at tristique augue. Proin efficitur risus at elit viverra elementum. Nam at gravida ante, a tempus massa. Suspendisse libero lorem, faucibus vitae ultrices eget, sodales ut quam."
+    },
+    {
+      "id": 7,
+      "title": "Some news",
+      "tags": [
+        "sdf"
+      ],
+      "author": {
+        "id": 4,
+        "name": "Rron Aliu"
+      },
+      "team": {
+        "name": "Team 1",
+        "id": 1
+      },
+      "publicationDate": "2022-10-29T14:20:15.133Z",
+      "removable": true,
+      "description": "Some description",
+      "content": "qweqweqweqe"
+    },
+    {
+      "id": 34,
+      "title": "asd",
+      "tags": [
+        "asd"
+      ],
+      "author": {
+        "id": 4,
+        "name": "Rron Aliu"
+      },
+      "team": {
+        "name": "Team 1",
+        "id": 1
+      },
+      "publicationDate": "2022-10-29T14:45:20.281Z",
+      "removable": true,
+      "description": "asd",
+      "content": "asd"
+    },
+    {
+      "id": 24,
+      "title": "111111111",
+      "tags": [
+        "111111"
+      ],
+      "author": {
+        "id": 4,
+        "name": "Rron Aliu"
+      },
+      "team": {
+        "name": "Team 1",
+        "id": 1
+      },
+      "publicationDate": "2022-10-29T14:47:46.986Z",
+      "removable": true,
+      "description": "111111",
+      "content": "111111"
+    },
+    {
+      "id": 43,
+      "title": "qwe",
+      "tags": [
+        "as3"
+      ],
+      "author": {
+        "id": 4,
+        "name": "Rron Aliu"
+      },
+      "team": {
+        "name": "Team 1",
+        "id": 1
+      },
+      "publicationDate": "2022-10-29T16:05:23.370Z",
+      "removable": true,
+      "description": "Some description",
+      "content": ""
+    },
+    {
+      "id": 47,
+      "title": "asd",
+      "tags": [
+        "asd"
+      ],
+      "author": {
+        "id": 4,
+        "name": "Rron Aliu"
+      },
+      "team": {
+        "name": "Team 2",
+        "id": 2
+      },
+      "publicationDate": "2022-10-29T16:05:47.901Z",
+      "removable": false,
+      "description": "asd",
+      "content": ""
+    }
+  ]
+}
