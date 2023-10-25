@@ -5,10 +5,10 @@
 npm install
 ```
 
-Setup JSON SERVER 
-
+## Setup JSON SERVER 
+```
 npm run start
-
+```
 
 ### Compiles and hot-reloads for development
 ```
